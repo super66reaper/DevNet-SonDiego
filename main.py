@@ -31,6 +31,6 @@ def createModel(showModel) :
 
     return model
 
-model = createModel()
+model = createModel(True)
 
 model.train(X=np.array([data1]), y=np.array([yTruth1]), epochs=1)
