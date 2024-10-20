@@ -18,7 +18,7 @@ def createModel(showModel) :
     model.add(nn.Layer_Dense(16, 3))
     model.add(nn.Activation_Softmax())
 
-    if (showModel)
+    if (showModel):
         model.printModelImage()
 
     model.set(
